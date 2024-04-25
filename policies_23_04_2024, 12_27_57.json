@@ -1,0 +1,1756 @@
+{
+   "chromeMetadata": {
+      "OS": "Windows 10 Version 22H2 (Build 19045.4170)",
+      "application": "Google Chrome",
+      "revision": "8771130bd84f76d855ae42fbe02752b03e352f17-refs/branch-heads/6367@{#798}",
+      "version": "124.0.6367.60 (Official Build) (64-bit) (cohort: M124 Rollout)"
+   },
+   "policyValues": {
+      "chrome": {
+         "name": "Chrome Policies",
+         "policies": {
+            "AllowCrossOriginAuthPrompt": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "AllowWebAuthnWithBrokenTlsCerts": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "AlternateErrorPagesEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": false
+            },
+            "AudioCaptureAllowed": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "AudioCaptureAllowedUrls": {
+               "conflicts": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": [
+                        "[*.]airbus-connectprod.my.connect.aws",
+                        "[*.]airbus-connectval.my.connect.aws",
+                        "[*.]airbus-staging.bitnamic.net",
+                        "[*.]airbus.citadel.team",
+                        "[*.]airbus.csod.com",
+                        "[*.]airbus.service-now.com",
+                        "[*.]airbusoperationsqualif.service-now.com",
+                        "[*.]airbusproofofconcept.service-now.com",
+                        "[*.]airmeet.com",
+                        "[*.]app.seeklive.io",
+                        "[*.]atr-aircraft.com",
+                        "[*.]avatour.live",
+                        "[*.]bluejeans.com",
+                        "[*.]businesscenter.att.com",
+                        "[*.]crowdcast.io",
+                        "[*.]dfeswde0.eu.airbus.corp",
+                        "[*.]dfeswde0.intra.corp",
+                        "[*.]divmeet.airbusdefenceandspace.com",
+                        "[*.]divmeet.intra.airbusds.corp",
+                        "[*.]dmiswde0.eu.airbus.corp",
+                        "[*.]dshu55nx7m3fx.cloudfront.net",
+                        "[*.]esii-orion.com",
+                        "[*.]google.com",
+                        "[*.]google.com.rproxy.goskope.com",
+                        "[*.]guardtek.net",
+                        "[*.]ifrp-bw-int.intra.corp",
+                        "[*.]ifrp-bw.intra.corp",
+                        "[*.]imiswde0.eu.airbus.corp",
+                        "[*.]join.citadel.team",
+                        "[*.]kudoway.com",
+                        "[*.]kudoway.eu",
+                        "[*.]learning.telelangue.com",
+                        "[*.]lifesize.com",
+                        "[*.]lifesizecloud.com",
+                        "[*.]m01st-cm1k-01.preprod.fr.eu.airbus.corp",
+                        "[*.]mfeswde0.eu.airbus.corp",
+                        "[*.]mfeswde0.intra.corp",
+                        "[*.]mylaunchpad-demo.intra.corp",
+                        "[*.]mylaunchpad-dev.intra.corp",
+                        "[*.]mylaunchpad-qual.intra.corp",
+                        "[*.]mylaunchpad.intra.corp",
+                        "[*.]mytower.fr",
+                        "[*.]pfeswde0.eu.airbus.corp",
+                        "[*.]pfeswde0.intra.corp",
+                        "[*.]qfeswde0.eu.airbus.corp",
+                        "[*.]qfeswde0.intra.corp",
+                        "[*.]qmiswde0.eu.airbus.corp",
+                        "[*.]ra.airbus-v.com",
+                        "[*.]ra.airbus.com",
+                        "[*.]riverside.fm",
+                        "[*.]securemeeting-pp.airbus.com",
+                        "[*.]securemeeting.airbus.com",
+                        "[*.]securemeeting.airbushelicopters.com",
+                        "[*.]simexpo.com",
+                        "[*.]simplifi-int.airbus.com",
+                        "[*.]simplifi.airbus.com",
+                        "[*.]smiswde0.eu.airbus.corp",
+                        "[*.]talentspace.io",
+                        "[*.]teams.microsoft.com",
+                        "[*.]teams.microsoft.us",
+                        "[*.]testia-staging.bitnamic.net",
+                        "[*.]testia.com",
+                        "[*.]tmiswde0.eu.airbus.corp",
+                        "[*.]video.airbushelicopters.com",
+                        "[*.]vmixcall.com",
+                        "[*.]webcaptioner.com",
+                        "[*.]webex.com",
+                        "[*.]zmiswde0.eu.airbus.corp",
+                        "[*.]zoom.us",
+                        "[*.]zoomgov.com",
+                        "airbus.hirevue.com",
+                        "airbus.x2ocloud.com",
+                        "airbusdefenceandspace.com",
+                        "bjnsecure_z-vh.akamaihd.net",
+                        "collab-mediaserver-gwc24-emea.x2ocloud.com",
+                        "emea.x2ocloud.com",
+                        "epoxy-emea-airbus.x2ocloud.com",
+                        "epoxy-emea.x2ocloud.com",
+                        "eu.yourcircuit.com",
+                        "fr0-vsiaas-6062.eu.airbus.corp",
+                        "fr0-vsiaas-6063.eu.airbus.corp",
+                        "fr0-vsiaas-6064.eu.airbus.corp",
+                        "d2ydo7dgyjvfrf.cloudfront.net",
+                        "d3j210xt254zlp.cloudfront.net",
+                        "daas-rds-pod-fr1.airbus.corp",
+                        "jserver-emea.x2ocloud.com",
+                        "quicklink.network",
+                        "server-emea.x2ocloud.com",
+                        "smart.newrow.com",
+                        "uc.common.airbusds.corp",
+                        "web.skype.com",
+                        "zhlvs143.eu.airbus.corp"
+                     ]
+                  }
+               ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "[*.]airbus.citadel.team",
+                  "[*.]airbusproofofconcept.service-now.com",
+                  "[*.]riverside.fm",
+                  "zhlvs143.eu.airbus.corp",
+                  "[*.]testia-staging.bitnamic.net",
+                  "[*.]airbus-staging.bitnamic.net",
+                  "[*.]ra.airbus.com",
+                  "[*.]ra.airbus-v.com",
+                  "[*.]teams.microsoft.us",
+                  "[*.]divmeet.airbusdefenceandspace.com",
+                  "[*.]divmeet.intra.airbusds.corp",
+                  "[*.]webcaptioner.com/",
+                  "[*.]airbus-roofs.webex.com",
+                  "[*.]airbus-connectprod.my.connect.aws",
+                  "[*.]airbus-connectval.my.connect.aws",
+                  "[*.]avatour.live",
+                  "[*.]esii-orion.com",
+                  "[*.]dshu55nx7m3fx.cloudfront.net",
+                  "[*.]webex.com",
+                  "[*.]e-mudhra.com",
+                  "[*.]jombay.com",
+                  "[*.]video.mbda-systems.com",
+                  "[*.]airbus.uptale.io",
+                  "[*.]atr-aircraft.com",
+                  "[*].8cf1.pcp.gcp.airbus.cloud",
+                  "[*.]pmd.apps.ocp01.airbus.corp",
+                  "[*.]elioz.fr",
+                  "[*.]connect.elioz.fr",
+                  "[*.]sd-02-prod.my.connect.aws",
+                  "[*.]sd-02-prod.my.connect.aws/ccp-v2/softphone",
+                  "[*.]teemew.com",
+                  "[*.]bluejeans.com",
+                  "[*.]businesscenter.att.com",
+                  "[*.]crowdcast.io",
+                  "[*.]dfeswde0.eu.airbus.corp",
+                  "[*.]dfeswde0.eu.airbus.corp",
+                  "[*.]dfeswde0.intra.corp",
+                  "[*.]dfeswde0.intra.corp",
+                  "[*.]airbus.csod.com",
+                  "[*.]dmiswde0.eu.airbus.corp",
+                  "[*.]event-airbus.webex.com",
+                  "[*.]google.com",
+                  "[*.]google.com.rproxy.goskope.com",
+                  "[*.]guardtek.net",
+                  "[*.]ifrp-bw.intra.corp",
+                  "[*.]ifrp-bw-int.intra.corp",
+                  "[*.]imiswde0.eu.airbus.corp",
+                  "[*.]join.citadel.team",
+                  "[*.]kudoway.com",
+                  "[*.]airbus.service-now.com",
+                  "[*.]kudoway.eu",
+                  "[*.]learning.telelangue.com",
+                  "[*.]lifesize.com",
+                  "[*.]lifesizecloud.com",
+                  "[*.]m01st-cm1k-01.preprod.fr.eu.airbus.corp",
+                  "[*.]mfeswde0.eu.airbus.corp",
+                  "[*.]mfeswde0.eu.airbus.corp",
+                  "[*.]mfeswde0.intra.corp",
+                  "[*.]mfeswde0.intra.corp",
+                  "[*.]mylaunchpad.intra.corp",
+                  "[*.]airbus-aircraft.webex.com",
+                  "[*.]mylaunchpad.intra.corp",
+                  "[*.]mylaunchpad-demo.intra.corp",
+                  "[*.]mylaunchpad-demo.intra.corp",
+                  "[*.]mylaunchpad-dev.intra.corp",
+                  "[*.]mylaunchpad-dev.intra.corp",
+                  "[*.]mylaunchpad-qual.intra.corp",
+                  "[*.]mylaunchpad-qual.intra.corp",
+                  "[*.]mytower.fr",
+                  "[*.]pfeswde0.eu.airbus.corp",
+                  "[*.]pfeswde0.eu.airbus.corp",
+                  "[*.]airbusdigitalclassprod.webex.com",
+                  "[*.]pfeswde0.intra.corp",
+                  "[*.]pfeswde0.intra.corp",
+                  "[*.]qfeswde0.eu.airbus.corp",
+                  "[*.]qfeswde0.eu.airbus.corp",
+                  "[*.]qfeswde0.intra.corp",
+                  "[*.]qfeswde0.intra.corp",
+                  "[*.]qmiswde0.eu.airbus.corp",
+                  "[*.]securemeeting.airbus.com",
+                  "[*.]securemeeting.airbushelicopters.com",
+                  "[*.]securemeeting-pp.airbus.com",
+                  "[*.]airbus-events.webex.com",
+                  "[*.]simexpo.com",
+                  "[*.]simplifi.airbus.com",
+                  "[*.]simplifi-int.airbus.com",
+                  "[*.]smiswde0.eu.airbus.corp",
+                  "[*.]teams.microsoft.com",
+                  "[*.]testia.com",
+                  "[*.]tmiswde0.eu.airbus.corp",
+                  "[*.]video.airbushelicopters.com",
+                  "[*.]zmiswde0.eu.airbus.corp",
+                  "[*.]zoom.us",
+                  "[*.]airbusoperationsqualif.service-now.com",
+                  "[*.]zoomgov.com",
+                  "airbus.hirevue.com",
+                  "airbusdefenceandspace.com",
+                  "bjnsecure_z-vh.akamaihd.net",
+                  "fr0-vsiaas-6062.eu.airbus.corp",
+                  "fr0-vsiaas-6063.eu.airbus.corp",
+                  "fr0-vsiaas-6064.eu.airbus.corp",
+                  "https://d3j210xt254zlp.cloudfront.net",
+                  "quicklink.network",
+                  "[*.]newrow.com",
+                  "[*.]airbusoperationsqualif.service-now.com",
+                  "uc.common.airbusds.corp",
+                  "web.skype.com",
+                  "meet91.webex.com",
+                  "bmwi-bund.webex.com",
+                  "ecconf.webex.com",
+                  "https://d2ydo7dgyjvfrf.cloudfront.net",
+                  "[*.]talentspace.io",
+                  "[*.]vmixcall.com",
+                  "[*.]asd-dle.my.webex.com",
+                  "[*.]ecacsecretariat.my.webex.com",
+                  "[*.]airbus-preprod.webex.com",
+                  "airbus.x2ocloud.com",
+                  "emea.x2ocloud.com",
+                  "server-emea.x2ocloud.com",
+                  "epoxy-emea.x2ocloud.com",
+                  "jserver-emea.x2ocloud.com",
+                  "collab-mediaserver-gwc24-emea.x2ocloud.com",
+                  "epoxy-emea-airbus.x2ocloud.com",
+                  "eu.yourcircuit.com",
+                  "[*.]airmeet.com",
+                  "[*.]app.seeklive.io"
+               ],
+               "warning": "This policy is working as intended but a conflicting value is set elsewhere and is overridden by this policy."
+            },
+            "AuthNegotiateDelegateAllowlist": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "*.*eurocopter.corp,*.eurocopter.com,*.airbushelicopters.com"
+            },
+            "AuthServerAllowlist": {
+               "conflicts": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": "*.airbus.com,*.intra.ds.corp,*.mykds.com,*.eads.net,*.abd.bae.co.uk,*.aerolia.com,*.aerolia.corp,*.airbus.dasa.de,*.airbus.fr,*.airbusdefenceandspace.com,*.airbusgroup.com,*.airbusgroup.com,*.aircollab.aero,*.airdesign.aero,*.airsecure.aero,*.application.supplyon.com,*.ariba.com,*.boostaerospace.com,*.cacib.com,*.cassidian.com,*.certificateservices.eads.com,*.cimpa.corp,*.eads.com,*.intra.atr.corp,*.kidsysteme.de,*.linkedin.com,*.meeting.aircollab.aero,*.w.mykds.com,es0-sfis-v01.eu-v.airbus-v.corp,http://bfems-newval.eu-v.airbus-v.corp,http://bfemsval.eu-v.airbus-v.corp,http://fsop.caac.gov.cn,http://ip-management.intra.crc.corp,http://magnet.t-systems.fr/*,http://sfis.es.eu.airbus.corp,http://sfis-p.es.eu.airbus.corp,http://siplanet.intra.casa.corp/*,https://*.rooms.hp.com,https://airsupply.application.qas.supplyon.com,https://airsupply-int.application.qas.supplyon.com,https://airsupplypreprd.application.qas.supplyon.com,https://cashmanagement.barclays.net,https://ctx-access.de.ds.corp,https://emis.esoio.com,https://erp.garner.de,https://ibank1.bib.barclays.com,https://service.dictao.com/dtp/airbus/frontoffice/ui/airbus,https://service.sttsgermany.de,https://spt.red.es,https://usermanagement.ilink.intra.corp,https://usermanagementvalidtest.ilink.intra.corp,https://www.agenciatributaria.gob.es,www.barclayscorporate.com,*.login.corp,*.airbus.corp,*.airbus-v.corp,*.intra.corp,*.*eurocopter.corp,*.eurocopter.com,*.airbushelicopters.com,*.myworkday.com"
+                  }
+               ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "*.airbus.com,*intra.ds.corp,*.mykds.com,*.eads.net,*.abd.bae.co.uk,*.aerolia.com,*.aerolia.corp,*.airbus.dasa.de,*.airbus.fr,*.airbusdefenceandspace.com,*.airbusgroup.com,*.airbus-group.com,*.aircollab.aero,*.airdesign.aero,*.airsecure.aero,*.application.supplyon.com,*.ariba.com,*.boostaerospace.com,*.ca-cib.com,*.cassidian.com,*.certificateservices.eads.com,*.cimpa.corp,*.eads.com,*.intra.atr.corp,*.kid-systeme.de,*.linkedin.com,*.meeting.aircollab.aero,*.w.mykds.com,es0-sfis-v01.eu-v.airbus-v.corp,http://bfems-newval.eu-v.airbus-v.corp,http://bfemsval.eu-v.airbus-v.corp,http://fsop.caac.gov.cn,http://ip-management.intra.crc.corp,http://magnet.t-systems.fr/*,http://sfis.es.eu.airbus.corp,http://sfis-p.es.eu.airbus.corp,http://sipla-net.intra.casa.corp/*,https://*.rooms.hp.com,https://airsupply.application.qas.supplyon.com,https://airsupply-int.application.qas.supplyon.com,https://airsupply-preprd.application.qas.supplyon.com,https://cashmanagement.barclays.net,https://ctx-access.de.ds.corp,https://emis.eso-io.com,https://erp.garner.de,https://ibank1.bib.barclays.com,https://service.dictao.com/dtp/airbus/frontoffice/ui/airbus,https://service.stts-germany.de,https://spt.red.es,https://usermanagement.ilink.intra.corp,https://usermanagementvalidtest.ilink.intra.corp,https://www.agenciatributaria.gob.es,www.barclayscorporate.com,*.login.corp,*.airbus.corp,*.airbus-v.corp,*.intra.corp,*.*eurocopter.corp,*.eurocopter.com,*.airbushelicopters.com",
+               "warning": "This policy is working as intended but a conflicting value is set elsewhere and is overridden by this policy."
+            },
+            "AutofillAddressEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "AutofillCreditCardEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "BackgroundModeEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "BrowserAddPersonEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "BrowserGuestModeEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "BuiltInDnsClientEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "ChromeCleanupEnabled": {
+               "error": "Unknown policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 0
+            },
+            "ChromeCleanupReportingEnabled": {
+               "error": "Unknown policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 0
+            },
+            "ChromeVariations": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": 2
+                  }
+               ],
+               "value": 2
+            },
+            "CloudPrintProxyEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "CloudReportingEnabled": {
+               "error": "Ignored because the machine is not enrolled with Chrome Browser Cloud Management.",
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": true
+            },
+            "CloudUserPolicyOverridesCloudMachinePolicy": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "CookiesSessionOnlyForUrls": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "[*.]pfu.intra.corp"
+               ]
+            },
+            "CreateThemesSettings": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": 1
+            },
+            "DefaultBrowserSettingEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "DefaultGeolocationSetting": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": 2
+                  }
+               ],
+               "value": 2
+            },
+            "DefaultNotificationsSetting": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 2
+            },
+            "DefaultPopupsSetting": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 2
+            },
+            "DeveloperToolsDisabled": {
+               "deprecated": true,
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": false
+            },
+            "Disable3DAPIs": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "DisablePrintPreview": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "DisableSafeBrowsingProceedAnyway": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": true
+                  }
+               ],
+               "value": true
+            },
+            "EnableOnlineRevocationChecks": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "EncryptedClientHelloEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "EnterpriseProfileCreationKeepBrowsingData": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "EventPathEnabled": {
+               "error": "Unknown policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 1
+            },
+            "ExtensionInstallAllowlist": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": [
+                  "aapbdbdomjkkjkaonfhkkikfgjllcleb",
+                  "aghfnjkcakhmadgdomlmlhhaocbkloab",
+                  "anhkillhahfelhokpgmnfkiglhffkaml",
+                  "aobcgffnbkbipbflopponndoiommhnch",
+                  "bebecogbafbighhaildooiibipcnbngo",
+                  "callobklhcbilhphinckomhgkigmfocg",
+                  "cdfdkmklcjlnnnlnplffpdiekfhkpbme",
+                  "cdkecinaonohgbmhojlaeeoalomfhlal",
+                  "cmhmcmgkegfffbbfobhjpdbimgmoohap",
+                  "cnhcglnijldbkbhpodhfjdokflpglipa",
+                  "cnooaimbdcpandpicdjioeljeodlcffk",
+                  "ddaloccgjfibfpkalenodgehlhkgoahe",
+                  "dlknooajieciikpedpldejhhijacnbda",
+                  "eohghiagfdiblfddjokjelgpkmokpoal",
+                  "fmjdnjohcfkeikdofagohebbekaccglg",
+                  "fmkadmapgofadopljbjfkapdkoienihi",
+                  "gbbacdmgjdfajabgglpjifcedoajdimg",
+                  "gbkeegbaiigmenfmjfclcdgdpimamgkj",
+                  "gbmdgpbipfallnflgajpaliibnhdgobh",
+                  "ghbmnnjooekpmoecnnnilnnbdlolhkhi",
+                  "gmbmikajjgmnabiglmofipeabaddhgne",
+                  "hbnphohihhclfgpbnkmldfdlebkpohpn",
+                  "hfhhnacclhffhdffklopdkcgdhifgngh",
+                  "hhogfmlhffdddckpokfodepfiimfffjf",
+                  "hpoiplhbnkgnpjkkilfahkkcimachkkj",
+                  "iaalpfgpbocpdfblpnhhgllgbdbchmia",
+                  "ipkjmjaledkapilfdigkgfmpekpfnkih",
+                  "iplhdhfokhijhogcccokkeokchhooibk",
+                  "jjlfmldcaheghnjjpgpoadjfppefjmkj",
+                  "jlhmfgmfgeifomenelglieieghnjghma",
+                  "joodangkbfjnajiiifokapkpmhfnpleo",
+                  "kfdbkfglhcecdbdcckopllocehibllli",
+                  "kgejglhpjiefppelpmljglcjbhoiplfn",
+                  "lahipjfggmgneaopcckkaipmoandaboo",
+                  "lajondecmobodlejlcjllhojikagldgd",
+                  "lcknjpenlfdlffeafcadkbjfodmmgdip",
+                  "lmhkpmbekcpmknklioeibfkpmmfibljd",
+                  "lpcaedmchfhocbbapmcbpinfpgnhiddi",
+                  "mdifmgkofhcnndinbbdbaplplnmdalnc",
+                  "mhhlgkfginnlendpfkhcmldikeepoefa",
+                  "mmfbcljfglbokpmkimbfghdkjmjhdgbg",
+                  "moncllbmpgeokdhbbekemjlmgcmcmmhb",
+                  "mpiodijhokgodhhofbcjdecpffjipkle",
+                  "nodamnmigpadbnfioofpbacngdlcidgn",
+                  "ooghhkigehdihajppgalgkodhelbjjlm",
+                  "pjfbgcbklnoeejjipoabcfnijajgikpb",
+                  "pjjaaonciccncnfeeecpnfgepojgmfpg"
+               ]
+            },
+            "ExtensionInstallBlocklist": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": [
+                  "*"
+               ]
+            },
+            "ExtensionInstallForcelist": {
+               "conflicts": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": [
+                        "callobklhcbilhphinckomhgkigmfocg;https://clients2.google.com/service/update2/crx",
+                        "hhogfmlhffdddckpokfodepfiimfffjf;https://clients2.google.com/service/update2/crx",
+                        "pjfbgcbklnoeejjipoabcfnijajgikpb;https://clients2.google.com/service/update2/crx"
+                     ]
+                  }
+               ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "fmjdnjohcfkeikdofagohebbekaccglg;C:\\Program Files\\Websense\\Websense Endpoint\\dlpext.xml"
+               ],
+               "warning": "This policy is working as intended but a conflicting value is set elsewhere and is overridden by this policy."
+            },
+            "ExtensionManifestV2Availability": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 2
+            },
+            "ExtensionSettings": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": {}
+            },
+            "HelpMeWriteSettings": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": 1
+            },
+            "HideWebStoreIcon": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "HomepageIsNewTabPage": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "HomepageLocation": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "https://hub.airbus.com/hub/welcome-page"
+            },
+            "HttpsUpgradesEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "ImportAutofillFormData": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "ImportHomepage": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "ImportSavedPasswords": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "ImportSearchEngine": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "IncognitoModeAvailability": {
+               "conflicts": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": 1
+                  }
+               ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 0,
+               "warning": "This policy is working as intended but a conflicting value is set elsewhere and is overridden by this policy."
+            },
+            "InsecureContentAllowedForUrls": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "[*.]pcacse0.eu.airbus.corp:1090/ContentServer",
+                  "[*.]qcacse0.eu.airbus.corp:1093",
+                  "[*.]qmiswde0.eu.airbus.corp",
+                  "[*.]peaswde0.eu.airbus.corp/sap/bc/webdynpro/sap",
+                  "[*.]p1iswde0.eu.airbus.corp",
+                  "[*.]p2iswde0.eu.airbus.corp",
+                  "[*.]p3iswde0.eu.airbus.corp",
+                  "[*.]p4iswde0.eu.airbus.corp",
+                  "[*.]p5iswde0.eu.airbus.corp",
+                  "[*.]peaswde0.eu.airbus.corp",
+                  "[*.]fr0-clfsmesil-p"
+               ]
+            },
+            "InsecurePrivateNetworkRequestsAllowed": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "MaxInvalidationFetchDelay": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 5000
+            },
+            "MetricsReportingEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "NativeMessagingAllowlist": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "com.hp.uft.nativemessaginghost",
+                  "com.webex.meeting",
+                  "com.aternity.fpi",
+                  "com.uipath.chromenativemsg_v2",
+                  "com.uipath.portable_host",
+                  "com.gemalto.sconnect",
+                  "ca.carillon.cryptocompanion",
+                  "com.aodocs.syncclient.airbus"
+               ]
+            },
+            "NativeMessagingBlocklist": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "*"
+               ]
+            },
+            "NativeMessagingUserLevelHosts": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "NetworkPredictionOptions": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 2
+            },
+            "NetworkServiceSandboxEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "NotificationsAllowedForUrls": {
+               "conflicts": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": [
+                        "[*.]google.com",
+                        "[*.]mylaunchpad-dev.intra.corp",
+                        "[*.]hana.ondemand.com",
+                        "[*.]api.intra.corp",
+                        "[*.]api.airbus.corp",
+                        "[*.]google.com.rproxy.goskope.com",
+                        "[*.]icarus-1g90-d.epaas.eu.airbus.corp",
+                        "[*.]icarus-1g90-i.epaas.eu.airbus.corp",
+                        "[*.]icarus-1g90-v.epaas.eu.airbus.corp",
+                        "[*.]icarus-1g90-p.epaas.eu.airbus.corp",
+                        "[*.]testia.com",
+                        "[*.]skywise.com",
+                        "[*.]skywise.airbus.cloud"
+                     ]
+                  }
+               ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "[*.]google.com",
+                  "[*.]mylaunchpad-dev.intra.corp",
+                  "[*.]hana.ondemand.com",
+                  "[*.]api.intra.corp",
+                  "[*.]api.airbus.corp",
+                  "[*.]icarus-1g90-v.apps.ocp01.airbus.corp",
+                  "[*.]arise-1g90-v.apps.ocp01.airbus.corp",
+                  "[*.]icarus-1g90-p.apps.ocp01.airbus.corp",
+                  "[*.]arise-1g90-p.apps.ocp01.airbus.corp",
+                  "[*.]google.com.rproxy.goskope.com",
+                  "[*.]icarus-1g90-d.epaas.eu.airbus.corp",
+                  "[*.]icarus-1g90-i.epaas.eu.airbus.corp",
+                  "[*.]icarus-1g90-v.epaas.eu.airbus.corp",
+                  "[*.]icarus-1g90-p.epaas.eu.airbus.corp",
+                  "[*.]testia.com",
+                  "[*.]skywise.com",
+                  "[*.]skywise.airbus.cloud"
+               ],
+               "warning": "This policy is working as intended but a conflicting value is set elsewhere and is overridden by this policy."
+            },
+            "OnSecurityEventEnterpriseConnector": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": [
+                  {
+                     "enabled_opt_in_events": [],
+                     "service_provider": "google"
+                  }
+               ]
+            },
+            "OriginAgentClusterDefaultEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "PasswordDismissCompromisedAlertEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "PasswordLeakDetectionEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": false
+            },
+            "PasswordManagerEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "PasswordSharingEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "PopupsAllowedForUrls": {
+               "conflicts": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": [
+                        "[*.]aero.bombardier.com",
+                        "[*.]airbus-pilot.csod.com",
+                        "[*.]airbus-procurement.bi-cockpit.com",
+                        "[*.]airbus-stg.csod.com",
+                        "[*.]airbus-v.cloud",
+                        "[*.]airbus-v.corp",
+                        "[*.]airbus.com",
+                        "[*.]airbus.corp",
+                        "[*.]airbus.csod.com",
+                        "[*.]airbus.lightning.force.com",
+                        "[*.]airbus.momindum.com",
+                        "[*.]airbus2-pilot.csod.com",
+                        "[*.]airbus3-pilot.csod.com",
+                        "[*.]airbusdigitalclassprod.webex.com",
+                        "[*.]airbusdigitalclasstest.webex.com",
+                        "[*.]airbushelicopters.com",
+                        "[*.]akamaiedge.net",
+                        "[*.]api.momindum.com",
+                        "[*.]assets.thinkzoom-staging.com",
+                        "[*.]assets.thinkzoom.com",
+                        "[*.]audit.telelangue.com",
+                        "[*.]bam.nr-data.net",
+                        "[*.]books24x7.eu",
+                        "[*.]cloudfront.net",
+                        "[*.]companion.3ds.com",
+                        "[*.]content.cegos.com",
+                        "[*.]content.thinkzoom.com",
+                        "[*.]core.skywise.com",
+                        "[*.]cornerstoneaicc.thinkzoom.com",
+                        "[*.]coursera.org",
+                        "[*.]crossknowledge-player.com",
+                        "[*.]crossknowledge.com",
+                        "[*.]csod-vh.akamaihd.net",
+                        "[*.]csoduk-a.akamaihd-staging.net",
+                        "[*.]csoduk-a.akamaihd.net",
+                        "[*.]csoduk-vh.akamaihd-staging.net",
+                        "[*.]csoduk-vh.akamaihd.net",
+                        "[*.]d37gvrvc0wt4s1.cloudfront.net",
+                        "[*.]epistema.com",
+                        "[*.]flash.telelangue.com",
+                        "[*.]fonts.googleapis.com",
+                        "[*.]fs.cegos.com",
+                        "[*.]google.com",
+                        "[*.]google.com",
+                        "[*.]intra.corp",
+                        "[*.]js-agent.newrelic.com",
+                        "[*.]launch.choota.com",
+                        "[*.]learning.telelangue.com",
+                        "[*.]lightning.force.com",
+                        "[*.]momindum-vh.akamaid.net",
+                        "[*.]myworkdaycdn.com",
+                        "[*.]new.newsedge.com",
+                        "[*.]ondemand.com",
+                        "[*.]plateau.com",
+                        "[*.]portal.cloudbooking.com",
+                        "[*.]retest.telelangue.com",
+                        "[*.]rosewood.palantircloud.com",
+                        "[*.]s3.amazonaws.com",
+                        "[*.]salesforce.com",
+                        "[*.]sap.com",
+                        "[*.]satair.int",
+                        "[*.]skillport.eu",
+                        "[*.]skillsoftcompliance.eu",
+                        "[*.]skillwsa.eu",
+                        "[*.]ssl.p.jwpcdn.com",
+                        "[*.]standardization.intra.airbusds.corp",
+                        "[*.]studio.myworkdaygadgets.com",
+                        "[*.]testia.com",
+                        "[*.]thinkzoom.com",
+                        "[*.]training.skillpill.com",
+                        "[*.]view-api.box.com",
+                        "[*.]view-api.box.com",
+                        "[*.]wd3-e2-impl.workday.com",
+                        "[*.]wd3-enterprise-services1.myworkday.com",
+                        "[*.]wd3-impl-enterprise-services1.workday.com",
+                        "[*.]wd3-impl-services1.workday.com",
+                        "[*.]wd3-impl.workday.com",
+                        "[*.]wd3-services1.myworkday.com",
+                        "[*.]wd3-sftp-impl.workday.com",
+                        "[*.]wd3.myworkday.com",
+                        "[*.]workdaycdn.com",
+                        "storage.googleapis.com"
+                     ]
+                  }
+               ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "[*.]admin.webex.com",
+                  "[*.]airbusdigitalclassprod.webex.com",
+                  "[*.]redhat.com",
+                  "[*.]airbusds.corp",
+                  "[*.]192.168.0.1",
+                  "[*.]airbustax-eu.lvcloud.com",
+                  "[*.]airbustaxdev-eu.lvcloud.com",
+                  "[*.]empresas3.gruposantander.es",
+                  "[*.]ariadneins.de.sgs.com",
+                  "[*.]jetnetevolution.com",
+                  "[*.]fm.training",
+                  "[*.]bdirect.aero.bombardier.com",
+                  "[*.]airbusdigitalclasstest.webex.com",
+                  "[*.]pa.corp",
+                  "[*.]saplearninghub.plateau.com",
+                  "[*.]ebookcentral.proquest.com",
+                  "[*.]faa.blackboard.com",
+                  "[*.]hermes.altran.com",
+                  "[*.]redkitesystems.net",
+                  "[*.]ds.corp",
+                  "[*.]dashboard.3dxcollab-preprod.eu.airbus.corp:9090/3ddashboard",
+                  "[*.]nfp.navtechinc.com",
+                  "[*.]masweb.nmccentral.com",
+                  "[*.]airbusoperationsqualif.service-now.com",
+                  "[*.]de0-vsiaas-1147.eu.airbus.corp",
+                  "[*.]airbus-pilot.csod.com",
+                  "[*.]airbus-stg.csod.com",
+                  "[*]airbus-pilot.csod.com",
+                  "[*]airbus-stg.csod.com",
+                  "https://api-prod.dispatchplus.navblue.cloud/ati/#/",
+                  "[*.]airbus-v.com",
+                  "[*.]csod.com",
+                  "[*.]faa.gov",
+                  "[*.]airbus-val.aodocs.app",
+                  "[*.]airbus-pilot.csod.com",
+                  "[*.]airbus.aodocs.app",
+                  "https://webepd.bmc.com/edownloads/",
+                  "[*.]mom.gov.sg",
+                  "[*.]bipocloud.com",
+                  "[*.]aib.nfp.vmc.navblue.cloud",
+                  "[*.]aib-dr.nfp.vmc.navblue.cloud",
+                  "[*.]ace.cbp.gov",
+                  "[*.]ahi.sumtotal.host",
+                  "[*.]ace.cbp.dhs.gov",
+                  "[*.]login.cbp.gov",
+                  "[*.]airbusproofofconcept.service-now.com",
+                  "[*.]bankofamerica.com",
+                  "[*.]eurocopter.corp",
+                  "[*.]airbus-stg.csod.com",
+                  "[*.]airbus-v.cloud",
+                  "[*.]airbus-v.corp",
+                  "[*.]akamaiedge.net",
+                  "[*.]api.momindum.com",
+                  "[*.]airbus.com",
+                  "[*.]assets.thinkzoom.com",
+                  "[*.]assets.thinkzoom-staging.com ",
+                  "[*.]atr-aircraft.com",
+                  "[*.]audit.telelangue.com",
+                  "[*.]bam.nr-data.net",
+                  "[*.]books24x7.eu",
+                  "[*.]att.com",
+                  "[*.]cloud.sap",
+                  "[*.]cloudfront.net",
+                  "[*.]companion.3ds.com",
+                  "[*.]airbus.corp",
+                  "[*.]content.cegos.com",
+                  "[*.]content.thinkzoom.com",
+                  "[*.]cornerstoneaicc.thinkzoom.com",
+                  "[*.]coursera.org",
+                  "[*.]crossknowledge.com",
+                  "[*.]crossknowledge-player.com",
+                  "[*.]csoduk-a.akamaihd.net",
+                  "[*.]csoduk-a.akamaihd-staging.net ",
+                  "[*.]csoduk-vh.akamaihd.net",
+                  "[*.]csoduk-vh.akamaihd-staging.net",
+                  "[*.]airbus.csod.com",
+                  "[*.]csod-vh.akamaihd.net",
+                  "[*.]d37gvrvc0wt4s1.cloudfront.net",
+                  "[*.]deaswde0.eu.airbus.corp",
+                  "[*.]epistema.com",
+                  "[*.]eurocontrol.int",
+                  "[*.]flash.telelangue.com",
+                  "[*.]fonts.googleapis.com",
+                  "[*.]fs.cegos.com ",
+                  "[*.]google.com",
+                  "[*.]google.com.rproxy.goskope.com",
+                  "[*.]airbus.lightning.force.com",
+                  "[*.]hana.ondemand.com",
+                  "[*.]intra.corp",
+                  "[*.]js-agent.newrelic.com",
+                  "[*.]keycopter.airbushelicopters.com",
+                  "[*.]launch.choota.com",
+                  "[*.]learning.telelangue.com",
+                  "[*.]lightning.force.com",
+                  "[*.]momindum-vh.akamaid.net",
+                  "[*.]myworkdaycdn.com",
+                  "[*.]new.newsedge.com",
+                  "[*.]airbus.momindum.com",
+                  "[*.]ondemand.com",
+                  "[*.]portal.cloudbooking.com",
+                  "[*.]retest.telelangue.com",
+                  "[*.]rosewood.palantircloud.com",
+                  "[*.]s3.amazonaws.com",
+                  "[*.]salesforce.com",
+                  "[*.]sap.com",
+                  "[*.]sapanalytics.cloud",
+                  "[*.]satair.int",
+                  "[*.]satair.net",
+                  "[*.]airbus.service-now.com",
+                  "[*.]script.google.com.rproxy.goskope.com/a/airbus.com/macros",
+                  "[*.]script.google.com.rproxy.goskope.com/a/macros/airbus.com",
+                  "[*.]script.google.com/a/airbus.com/macros",
+                  "[*.]script.google.com/a/macros/airbus.com",
+                  "[*.]skillport.eu",
+                  "[*.]skillsoftcompliance.eu",
+                  "[*.]skillwsa.eu",
+                  "[*.]skywise.airbus.cloud",
+                  "[*.]skywise.com",
+                  "[*.]sol-web.de.elis.com",
+                  "[*.]airbus2-pilot.csod.com",
+                  "[*.]ssl.p.jwpcdn.com",
+                  "[*.]standardization.intra.airbusds.corp",
+                  "[*.]studio.myworkdaygadgets.com",
+                  "[*.]testia.com",
+                  "[*.]thinkzoom.com",
+                  "[*.]training.skillpill.com",
+                  "[*.]view-api.box.com",
+                  "[*.]view-api.box.com",
+                  "[*.]wd3.myworkday.com",
+                  "[*.]wd3-e2-impl.workday.com",
+                  "[*.]airbus3-pilot.csod.com",
+                  "[*.]wd3-enterprise-services1.myworkday.com",
+                  "[*.]wd3-impl.workday.com",
+                  "[*.]wd3-impl-enterprise-services1.workday.com",
+                  "[*.]wd3-impl-services1.workday.com",
+                  "[*.]wd3-services1.myworkday.com",
+                  "[*.]wd3-sftp-impl.workday.com",
+                  "[*.]workdaycdn.com",
+                  "dcacse0.eu.airbus.corp",
+                  "storage.googleapis.com",
+                  "[*.]wexhealth.com"
+               ],
+               "warning": "This policy is working as intended but a conflicting value is set elsewhere and is overridden by this policy."
+            },
+            "PrivacySandboxAdMeasurementEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "PrivacySandboxAdTopicsEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "PrivacySandboxPromptEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "PrivacySandboxSiteEnabledAdsEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "PromotionalTabsEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": false
+            },
+            "ProxySettings": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": {
+                  "ProxyMode": "system"
+               }
+            },
+            "QuicAllowed": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "RegisteredProtocolHandlers": {
+               "level": "recommended",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  {
+                     "default": true,
+                     "protocol": "mailto",
+                     "url": "https://mail.google.com/mail/?extsrc=mailto&url=%s"
+                  }
+               ]
+            },
+            "RemoteAccessHostAllowClientPairing": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "RemoteAccessHostAllowGnubbyAuth": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "RemoteAccessHostAllowRelayedConnection": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "RemoteAccessHostDomainList": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "airbus.com"
+               ]
+            },
+            "RemoteAccessHostFirewallTraversal": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "RemoteAccessHostRequireCurtain": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "RemoteAccessHostUdpPortRange": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "12400-12409"
+            },
+            "RendererAppContainerEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "RequireOnlineRevocationChecksForLocalAnchors": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "RestoreOnStartup": {
+               "level": "recommended",
+               "scope": "machine",
+               "source": "platform",
+               "value": 4
+            },
+            "RestoreOnStartupURLs": {
+               "level": "recommended",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "https://hub.airbus.com/hub/welcome-page"
+               ]
+            },
+            "RestrictSigninToPattern": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "*@airbus.com"
+            },
+            "SSLErrorOverrideAllowed": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "SafeBrowsingDeepScanningEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "SafeBrowsingExtendedReportingEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "SafeBrowsingProtectionLevel": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": 1
+            },
+            "SandboxExternalProtocolBlocked": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "SearchSuggestEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "SharedArrayBufferUnrestrictedAccessAllowed": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "ShowAppsShortcutInBookmarkBar": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "ShowHomeButton": {
+               "level": "recommended",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "SitePerProcess": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": true
+                  }
+               ],
+               "value": true
+            },
+            "SpellCheckServiceEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "SyncDisabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true
+            },
+            "SyncTypesListDisabled": {
+               "error": "The inserted wifiConfigurations couldn't be found.",
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": [
+                  "autofill",
+                  "typedUrls",
+                  "passwords",
+                  "readingList",
+                  "tabs",
+                  "wifiConfigurations"
+               ]
+            },
+            "TabOrganizerSettings": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": 1
+            },
+            "TranslateEnabled": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "VideoCaptureAllowed": {
+               "info": "This policy is working as intended but the same value is set elsewhere and is superseded by this policy.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": false
+                  }
+               ],
+               "value": false
+            },
+            "VideoCaptureAllowedUrls": {
+               "conflicts": [
+                  {
+                     "level": "mandatory",
+                     "scope": "user",
+                     "source": "cloud",
+                     "value": [
+                        "[*.]airbus-staging.bitnamic.net",
+                        "[*.]airbus.citadel.team",
+                        "[*.]airbus.service-now.com",
+                        "[*.]airbusoperationsqualif.service-now.com",
+                        "[*.]airbusproofofconcept.service-now.com",
+                        "[*.]airmeet.com",
+                        "[*.]app.seeklive.io",
+                        "[*.]avatour.live",
+                        "[*.]bluejeans.com",
+                        "[*.]crowdcast.io",
+                        "[*.]dashboard.3dxfactory-dev.eu.airbus.corp",
+                        "[*.]deaswde0.eu.airbus.corp",
+                        "[*.]dfeswde0.eu.airbus.corp",
+                        "[*.]dfeswde0.intra.corp",
+                        "[*.]divmeet.airbusdefenceandspace.com",
+                        "[*.]divmeet.intra.airbusds.corp",
+                        "[*.]dmiswde0.eu.airbus.corp",
+                        "[*.]dshu55nx7m3fx.cloudfront.net",
+                        "[*.]esii-orion.com",
+                        "[*.]fr0-vsiaas-2388.eu.airbus.corp",
+                        "[*.]fr0-vsiaas-2389.eu.airbus.corp",
+                        "[*.]fr0-vsiaas-6062.eu.airbus.corp",
+                        "[*.]fr0-vsiaas-6063.eu.airbus.corp",
+                        "[*.]fr0-vsiaas-6064.eu.airbus.corp",
+                        "[*.]gestion-des-incidents-c2d3-d.epaas.eu.airbus.corp",
+                        "[*.]gestion-des-incidents-c2d3-p.epaas.eu.airbus.corp",
+                        "[*.]google.com",
+                        "[*.]google.com.rproxy.goskope.com",
+                        "[*.]ieaswde0.eu.airbus.corp",
+                        "[*.]imiswde0.eu.airbus.corp",
+                        "[*.]join.citadel.team",
+                        "[*.]kudoway.com",
+                        "[*.]kudoway.eu",
+                        "[*.]lbk-qa10-d.epaas.eu.airbus.corp",
+                        "[*.]lbk-qa10-d.epaas.intra.corp",
+                        "[*.]lbk-qa10-v.epaas.eu.airbus.corp",
+                        "[*.]lbk-qa10-v.epaas.intra.corp",
+                        "[*.]lbk.epaas.eu.airbus.corp",
+                        "[*.]lbk.epaas.intra.corp",
+                        "[*.]lifesize.com",
+                        "[*.]m01st-cm1k-01.preprod.fr.eu.airbus.corp",
+                        "[*.]mfeswde0.eu.airbus.corp",
+                        "[*.]mfeswde0.intra.corp",
+                        "[*.]mylaunchpad-demo.intra.corp",
+                        "[*.]mylaunchpad-dev.intra.corp",
+                        "[*.]mylaunchpad-int.intra.corp",
+                        "[*.]mylaunchpad-qual.intra.corp",
+                        "[*.]mylaunchpad.intra.corp",
+                        "[*.]mytower.fr",
+                        "[*.]p1iswde0.eu.airbus.corp",
+                        "[*.]p2iswde0.eu.airbus.corp",
+                        "[*.]p3iswde0.eu.airbus.corp",
+                        "[*.]p4iswde0.eu.airbus.corp",
+                        "[*.]peaswde0.eu.airbus.corp",
+                        "[*.]pfeswde0.eu.airbus.corp",
+                        "[*.]pfeswde0.intra.corp",
+                        "[*.]prism-i.eu.airbus.corp",
+                        "[*.]prism.eu-v.airbus-v.corp",
+                        "[*.]prism.eu.airbus.corp",
+                        "[*.]qeaswde0.eu.airbus.corp",
+                        "[*.]qfeswde0.eu.airbus.corp",
+                        "[*.]qfeswde0.intra.corp",
+                        "[*.]qmiswde0.eu.airbus.corp",
+                        "[*.]ra.airbus-v.com",
+                        "[*.]ra.airbus.com",
+                        "[*.]riverside.fm",
+                        "[*.]securemeeting-pp.airbus.com",
+                        "[*.]securemeeting.airbus.com",
+                        "[*.]securemeeting.airbushelicopters.com",
+                        "[*.]simexpo.com",
+                        "[*.]smiswde0.eu.airbus.corp",
+                        "[*.]talentspace.io",
+                        "[*.]teams.microsoft.com",
+                        "[*.]teams.microsoft.us",
+                        "[*.]testia-staging.bitnamic.net",
+                        "[*.]testia.com",
+                        "[*.]tmiswde0.eu.airbus.corp",
+                        "[*.]video.airbushelicopters.com",
+                        "[*.]vmixcall.com",
+                        "[*.]webex.com",
+                        "[*.]zeaswde0.eu.airbus.corp",
+                        "[*.]zmiswde0.eu.airbus.corp",
+                        "[*.]zoom.us",
+                        "[*.]zoomgov.com",
+                        "aeos-vip.eu.airbus.corp",
+                        "airbus.hirevue.com",
+                        "airbus.x2ocloud.com",
+                        "airbusdefenceandspace.com",
+                        "app.tracert.digital",
+                        "bjnsecure_z-vh.akamaihd.net",
+                        "collab-mediaserver-gwc24-emea.x2ocloud.com",
+                        "dashboard.3dxplatform-ffa5.eu.airbus.corp",
+                        "dashboard.3dxplatform-ffae2e1.eu.airbus.corp",
+                        "dashboard.3dxplatform-ffae2e2.eu.airbus.corp",
+                        "dashboard.3dxplatform-ffae2e3.eu.airbus.corp",
+                        "dashboard.3dxplatform-ffae2e4.eu.airbus.corp",
+                        "dashboard.3dxplatform-int7.eu.airbus.corp",
+                        "dashboard.3dxplatform-maint.eu.airbus.corp",
+                        "dashboard.3dxplatform-train.eu.airbus.corp",
+                        "dashboard.3dxplatform-val.eu.airbus.corp",
+                        "dashboard.3dxplatform.eu.airbus.corp",
+                        "emea.x2ocloud.com",
+                        "epoxy-emea-airbus.x2ocloud.com",
+                        "epoxy-emea.x2ocloud.com",
+                        "eu.yourcircuit.com",
+                        "jserver-emea.x2ocloud.com",
+                        "quicklink.network",
+                        "server-emea.x2ocloud.com",
+                        "smart.newrow.com",
+                        "uc.common.airbusds.corp",
+                        "web.skype.com"
+                     ]
+                  }
+               ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": [
+                  "[*.]airbus.citadel.team",
+                  "[*.]airbusproofofconcept.service-now.com",
+                  "emea.x2ocloud.com",
+                  "server-emea.x2ocloud.com",
+                  "epoxy-emea.x2ocloud.com",
+                  "jserver-emea.x2ocloud.com",
+                  "collab-mediaserver-gwc24-emea.x2ocloud.com",
+                  "epoxy-emea-airbus.x2ocloud.com",
+                  "eu.yourcircuit.com",
+                  "[*.]gestion-des-incidents-c2d3-p.epaas.eu.airbus.corp",
+                  "[*.]gestion-des-incidents-c2d3-d.epaas.eu.airbus.corp",
+                  "[*.]airmeet.com",
+                  "[*.]airbus-roofs.webex.com",
+                  "[*.]app.seeklive.io",
+                  "[*.]riverside.fm",
+                  "[*.]testia-staging.bitnamic.net",
+                  "[*.]airbus-staging.bitnamic.net",
+                  "[*.]ra.airbus-v.com",
+                  "[*.]ra.airbus.com",
+                  "[*.]teams.microsoft.us",
+                  "[*.]divmeet.airbusdefenceandspace.com",
+                  "[*.]divmeet.intra.airbusds.corp",
+                  "[*.]mylaunchpad-int.intra.corp",
+                  "[*.]bluejeans.com",
+                  "[*.]avatour.live",
+                  "[*.]esii-orion.com",
+                  "[*.]dshu55nx7m3fx.cloudfront.net",
+                  "[*.]webex.com",
+                  "[*.]e-mudhra.com",
+                  "[*.]aeos.eu.airbus.corp",
+                  "[*.]jombay.com",
+                  "[*.]logbook-qa10-d.apps.ocp01.airbus.corp",
+                  "[*.]logbook-qa10-v.apps.ocp01.airbus.corp",
+                  "[*.]logbook.apps.ocp01.airbus.corp",
+                  "[*.]crowdcast.io",
+                  "[*.]video.mbda-systems.com",
+                  "https://sap-pg1.stelia.aero",
+                  "https://sap-vg1.stelia.aero",
+                  "https://sap-ig1.stelia-v.aero",
+                  "https://sap-dg1.stelia-v.aero",
+                  "https://sap-pg1.myatlantic.aero",
+                  "https://sap-vg1.myatlantic.aero",
+                  "[*.]pmd.apps.ocp01.airbus.corp",
+                  "[*.]elioz.fr",
+                  "[*.]connect.elioz.fr",
+                  "[*.]dashboard.3dxfactory-dev.eu.airbus.corp",
+                  "[*.]deaswde0.eu.airbus.corp",
+                  "[*.]dfeswde0.eu.airbus.corp",
+                  "[*.]dfeswde0.intra.corp",
+                  "[*.]dmiswde0.eu.airbus.corp",
+                  "[*.]event-airbus.webex.com",
+                  "[*.]airbus.service-now.com",
+                  "[*.]fr0-vsiaas-2388.eu.airbus.corp",
+                  "[*.]fr0-vsiaas-2389.eu.airbus.corp",
+                  "[*.]fr0-vsiaas-6062.eu.airbus.corp",
+                  "[*.]fr0-vsiaas-6063.eu.airbus.corp",
+                  "[*.]fr0-vsiaas-6064.eu.airbus.corp",
+                  "[*.]google.com",
+                  "[*.]google.com.rproxy.goskope.com",
+                  "[*.]ieaswde0.eu.airbus.corp",
+                  "[*.]imiswde0.eu.airbus.corp",
+                  "[*.]join.citadel.team",
+                  "[*.]airbus.service-now.com",
+                  "[*.]kudoway.com",
+                  "[*.]kudoway.eu",
+                  "[*.]lbk.epaas.eu.airbus.corp",
+                  "[*.]lbk.epaas.intra.corp",
+                  "[*.]lbk-qa10-d.epaas.eu.airbus.corp",
+                  "[*.]lbk-qa10-d.epaas.intra.corp",
+                  "[*.]lbk-qa10-v.epaas.eu.airbus.corp",
+                  "[*.]lbk-qa10-v.epaas.intra.corp",
+                  "[*.]lifesize.com",
+                  "[*.]m01st-cm1k-01.preprod.fr.eu.airbus.corp",
+                  "[*.]airbus-aircraft.webex.com",
+                  "[*.]mfeswde0.eu.airbus.corp",
+                  "[*.]mfeswde0.intra.corp",
+                  "[*.]mylaunchpad.intra.corp",
+                  "[*.]mylaunchpad-demo.intra.corp",
+                  "[*.]mylaunchpad-dev.intra.corp",
+                  "[*.]mylaunchpad-qual.intra.corp",
+                  "[*.]mytower.fr",
+                  "[*.]p1iswde0.eu.airbus.corp",
+                  "[*.]p2iswde0.eu.airbus.corp",
+                  "[*.]p3iswde0.eu.airbus.corp",
+                  "[*.]airbusdigitalclassprod.webex.com",
+                  "[*.]p4iswde0.eu.airbus.corp",
+                  "[*.]peaswde0.eu.airbus.corp",
+                  "[*.]pfeswde0.eu.airbus.corp",
+                  "[*.]pfeswde0.intra.corp",
+                  "[*.]prism.eu.airbus.corp",
+                  "[*.]prism.eu-v.airbus-v.corp",
+                  "[*.]prism-i.eu.airbus.corp",
+                  "[*.]qeaswde0.eu.airbus.corp",
+                  "[*.]qfeswde0.eu.airbus.corp",
+                  "[*.]qfeswde0.intra.corp",
+                  "[*.]airbus-events.webex.com",
+                  "[*.]qmiswde0.eu.airbus.corp",
+                  "[*.]securemeeting.airbus.com",
+                  "[*.]securemeeting.airbushelicopters.com",
+                  "[*.]securemeeting-pp.airbus.com",
+                  "[*.]simexpo.com",
+                  "[*.]smiswde0.eu.airbus.corp",
+                  "[*.]teams.microsoft.com",
+                  "[*.]testia.com",
+                  "[*.]tmiswde0.eu.airbus.corp",
+                  "[*.]video.airbushelicopters.com",
+                  "[*.]airbusoperationsqualif.service-now.com",
+                  "[*.]zeaswde0.eu.airbus.corp",
+                  "[*.]zmiswde0.eu.airbus.corp",
+                  "[*.]zoom.us",
+                  "[*.]zoomgov.com",
+                  "aeos-vip.eu.airbus.corp",
+                  "airbus.hirevue.com",
+                  "airbusdefenceandspace.com",
+                  "app.tracert.digital",
+                  "bjnsecure_z-vh.akamaihd.net",
+                  "dashboard.3dxplatform.eu.airbus.corp",
+                  "[*.]airbusoperationsqualif.service-now.com",
+                  "dashboard.3dxplatform-ffa5.eu.airbus.corp",
+                  "dashboard.3dxplatform-ffae2e1.eu.airbus.corp",
+                  "dashboard.3dxplatform-ffae2e2.eu.airbus.corp",
+                  "dashboard.3dxplatform-ffae2e3.eu.airbus.corp",
+                  "dashboard.3dxplatform-ffae2e4.eu.airbus.corp",
+                  "dashboard.3dxplatform-int7.eu.airbus.corp",
+                  "dashboard.3dxplatform-maint.eu.airbus.corp",
+                  "dashboard.3dxplatform-train.eu.airbus.corp",
+                  "dashboard.3dxplatform-val.eu.airbus.corp",
+                  "quicklink.network",
+                  "[*.]airbus-preprod.webex.com",
+                  "[*.]newrow.com",
+                  "uc.common.airbusds.corp",
+                  "web.skype.com",
+                  "bmwi-bund.webex.com",
+                  "ecconf.webex.com",
+                  "[*.]talentspace.io",
+                  "[*.]vmixcall.com",
+                  "[*.]asd-dle.my.webex.com",
+                  "[*.]ecacsecretariat.my.webex.com",
+                  "airbus.x2ocloud.com"
+               ],
+               "warning": "This policy is working as intended but a conflicting value is set elsewhere and is overridden by this policy."
+            },
+            "WPADQuickCheckEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "WebRtcEventLogCollectionAllowed": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "cloud",
+               "value": false
+            },
+            "WebRtcIPHandling": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "default_public_and_private_interfaces"
+            }
+         }
+      },
+      "extensions": {},
+      "precedence": {
+         "name": "Policy Precedence",
+         "policies": {
+            "CloudUserPolicyOverridesCloudMachinePolicy": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            }
+         },
+         "precedenceOrder": [
+            "Platform machine",
+            "Cloud machine",
+            "Platform user",
+            "Cloud user"
+         ]
+      },
+      "updater": {
+         "name": "Google Update Policies",
+         "policies": {
+            "AutoUpdateCheckPeriodMinutes": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "618"
+            },
+            "InstallPolicy": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "1"
+            },
+            "UpdatePolicy": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": "1"
+            }
+         }
+      }
+   },
+   "status": {
+      "updater": {
+         "domain": "as.airbus.corp",
+         "policyDescriptionKey": "statusUpdater",
+         "timeSinceLastRefresh": "2 hours ago",
+         "version": "1.3.36.363"
+      },
+      "user": {
+         "clientId": "0f7736fe-695e-47f6-9a1c-3e5c7667b4fa",
+         "domain": "airbus.com",
+         "error": false,
+         "flexOrgWarning": false,
+         "gaiaId": "109530814877847392887",
+         "policiesPushAvailable": true,
+         "policyDescriptionKey": "statusUser",
+         "profileId": "j83DADVVg--AB0yxQWvg_matemY",
+         "status": "Policy cache OK",
+         "timeSinceLastFetchAttempt": "5 secs ago",
+         "timeSinceLastRefresh": "4 secs ago",
+         "username": "ajit.nambiar@airbus.com"
+      }
+   },
+   "policyExportTime": "23/04/2024, 12:27:57 GMT+5:30"
+}
